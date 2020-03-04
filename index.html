@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random</title>
+    <script src="apps.js"></script>
+</head>
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+</script>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<body>
+<body onload="startTime()">
+<div id="txt"></div>
+</head>
+<img src="https://www.simplyrecipes.com/wp-content/uploads/2019/09/easy-pepperoni-pizza-lead-4.jpg" alt="Smiley face" width="42" height="42">
+<img src="https://www.thespruceeats.com/thmb/15py8w1DOqOl4PjTX6r861Tes_g=/2044x2044/smart/filters:no_upscale()/donuts3297x2044-56a6447b5f9b58b7d0e0c0ba.jpg" alt="Smiley face" width="42" height="42">
+<img src="https://i.insider.com/5ad792ffbd967146008b45d9?width=1100&format=jpeg&auto=webp" alt="Smiley face" width="42" height="42">
+<img src="https://static.onecms.io/wp-content/uploads/sites/9/2017/01/sticky-baked-chicken-wings-xl-recipe0117.jpg" alt="Smiley face" width="42" height="42">
+<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190313-creamy-lemon-parmesan-chicken-horizontal-1553026901.png?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*" alt="Smiley face" width="42" height="42">
+<body>
+  <p id="demo"> Total</p>
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "25px"; 
+  x.style.color = "red"; 
+}
+</script>
+</body>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var price1 = 20;
+var price2 = 6;
+var total = price1 + price2;
+document.getElementById("demo").innerHTML =
+"The total is: " + total;
+</script>
+</body>
+</body>
+</body>
+</body>
+</body>
+</body>

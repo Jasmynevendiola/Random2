@@ -1,0 +1,76 @@
+body{
+  background-color:light blue;
+}
+.right{
+  float:right;
+}
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  https://www.pens.com/site/products/MOI?promo=FREENOW&st-t=google_pla_&vt-k=%7BKeyword%7D&vt-mt=%7BBidMatchType%7D&product_id=MOI&pricing_display=bulk&utm_source=google&utm_medium=cpc&utm_campaign=&gclsrc=aw.ds&&gclid=CjwKCAiA7t3yBRADEiwA4GFlIz9TWs-1tqQytbJJnUTcGAvs-WLGZYhqtNeCosHoYgRTH35QlXUYuRoCrm0QAvD_BwE
+}
+button:hover {
+  background: #4C2827;
+  border-bottom-color: #111;
+}
+button:active {1
+  position: relative;
+  top: 1px;
+}
+#clock{
+  Color:black;
+  font-style: ariel;
+  font-size: 200px
+}
+}
+a:link, a:visited {
+  background-color: #F44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+img{
+  height: 400px;
+  width:400px;
+  margin-left: 100px
+  margin-right:100px;
+  margin-bottom: 100px;
+}
